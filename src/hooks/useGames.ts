@@ -26,7 +26,7 @@ const useGames = (gameQuery: GameQuery) =>
         ordering: gameQuery.sortOrder
       },
     },
-    [gameQuery.genre?.id, gameQuery.platform?.id]
+    [gameQuery.genre?.id, gameQuery.platform?.id, gameQuery.sortOrder]
   );
 
 export default useGames;
