@@ -28,7 +28,8 @@
  <h3>Installation</h3>
     <ol>
         <li><strong>Clone the repository</strong>:
-            <pre><code>git clone https://github.com/pratikgupta190804/Game-Club.gitcd game-club</code></pre>
+            <pre><code>git clone https://github.com/pratikgupta190804/Game-Club.git</code></pre>
+            <pre><code>cd game-club</code></pre>
         </li>
         <li><strong>Install dependencies</strong>:
             <pre><code>npm install</code></pre>
